@@ -1,4 +1,4 @@
-class Cdt < Formula
+class EosioCdt < Formula
 
    homepage "https://github.com/eosio/eosio.cdt"
    revision 0
@@ -15,9 +15,9 @@ class Cdt < Formula
    depends_on :arch =>  :intel
    
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.0.3"
+      root_url "https://github.com/larryk85/test/releases/download/1.0.4"
       #cellar :any_skip_relocation
-      sha256 "dc72035058f4f1006cd248bd79bffed2647f354b4ba0c4d933c2cdb91461c700" => :high_sierra
+      sha256 "1310b74bd4cb28d3e773da807873fb9724a21a1909960867e3e68ccde021ecca" => :high_sierra
    end
    def install
       system "./build.sh"
