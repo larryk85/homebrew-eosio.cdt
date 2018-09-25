@@ -15,7 +15,7 @@ class Cdt < Formula
    depends_on :arch =>  :intel
    
    bottle do
-      url "https://github.com/larryk85/test/archive/v1.0.0.tar.gz"
+      root_url "https://github.com/larryk85/test/archive/v1.0.0.tar.gz"
       sha256 "b87a0ab90810ded95a9ba93c68c53ddebd26fc37a358f4112b490ee158ccbc72" => :high_sierra
    end
    def install
