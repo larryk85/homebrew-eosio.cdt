@@ -13,7 +13,10 @@ class Cdt < Formula
    depends_on :xcode => :build
    depends_on :macos => :leopard
    depends_on :arch =>  :intel
-
+   
+   bottle do
+      sha256 "b87a0ab90810ded95a9ba93c68c53ddebd26fc37a358f4112b490ee158ccbc72" => :high_sierra
+   end
    def install
       system "./build.sh"
       system "./install.sh"
