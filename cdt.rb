@@ -17,7 +17,7 @@ class Cdt < Formula
    bottle do
       root_url "https://github.com/larryk85/test/releases/download/1.0.2"
       #cellar :any_skip_relocation
-      sha256 "dc4e2685fde7af9400edd46c4f2c82618eeca45a1cfb19cbd980ee511191137e" => :high_sierra
+      sha256 "dc72035058f4f1006cd248bd79bffed2647f354b4ba0c4d933c2cdb91461c700" => :high_sierra
    end
    def install
       system "./build.sh"
