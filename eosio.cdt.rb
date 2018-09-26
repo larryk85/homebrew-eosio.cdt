@@ -25,7 +25,7 @@ class EosioCdt < Formula
       sha256 "4c1e8a59da8950d04226eaf32b775fefeae8570c1172fa7ed4aeccb6e46a0a33" => :high_sierra
    end
    def install
-      raise Error, only supporting binary packages at this time
+      raise "Error, only supporting binary packages at this time"
    end
 end
 __END__
