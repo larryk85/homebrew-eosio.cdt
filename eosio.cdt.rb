@@ -21,7 +21,7 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.0.5"
+      root_url "https://github.com/larryk85/test/releases/download/1.0.9"
       sha256 "12a211d197099a8ad37430213ba5e8225c61698421213683587c0d8b0e0b3063" => :high_sierra
    end
    def install
