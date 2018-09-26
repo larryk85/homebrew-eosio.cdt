@@ -22,7 +22,7 @@ class EosioCdt < Formula
   
    bottle do
       root_url "https://github.com/larryk85/test/releases/download/1.0.6"
-      sha256 "4c1e8a59da8950d04226eaf32b775fefeae8570c1172fa7ed4aeccb6e46a0a33" => :high_sierra
+      sha256 "8a0c0854b48673c12c799fed78b69d2248d9b4084062068a68abfdfd4613439e" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"
