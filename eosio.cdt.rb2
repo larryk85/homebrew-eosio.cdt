@@ -1,4 +1,4 @@
-class EosioCdt < Formula
+class Eosio2Cdt < Formula
 
    homepage "https://github.com/eosio/eosio.cdt"
    revision 0
