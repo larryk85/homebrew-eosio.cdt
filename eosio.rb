@@ -21,7 +21,7 @@ class Eosio < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/eosio/eos/releases/download/v1.3.2"
+      root_url "https://github.com/larryk85/test/releases/download/1.1.7"
       sha256 "ec97ccf63276aff50624752de8cf4accd0206e781be02e7066e9a478c7f90e3a" => :high_sierra
    end
    def install
