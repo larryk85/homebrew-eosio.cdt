@@ -3,7 +3,7 @@ class Eosio < Formula
    homepage "https://github.com/eosio/eos"
    revision 0
    url "https://github.com/eosio/eos/archive/v1.3.2.tar.gz"
-   version "1.3.2"
+   version "1.4.0"
    
    option :universal
 
