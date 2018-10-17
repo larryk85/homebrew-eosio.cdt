@@ -10,14 +10,12 @@ class Eosio < Formula
    depends_on "gmp" 
    depends_on "gettext"
    depends_on "openssl"
-   depends_on "gmp"
-   #depends_on :xcode
    depends_on :macos => :high_sierra
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.1.9"
-      sha256 "84f697a8d408e7dffc6df171c65ab31394b5d695f6b8312db3966030ba484c6d" => :mojave
+      root_url "https://github.com/larryk85/test/releases/download/1.2.0"
+      sha256 "9499975d2561774d9bbf2441e657f797f36813bfd1158c61e3bf261a88b55c6f" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"
