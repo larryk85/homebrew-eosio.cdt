@@ -15,7 +15,7 @@ class Eosio < Formula
   
    bottle do
       root_url "https://github.com/larryk85/test/releases/download/1.2.1"
-      sha256 "3bbc77ae7458adf92f1842dd2c8b8cd67b9a287539f455291479b5ca96b26308" => :high_sierra
+      sha256 "04bc097250df00b350fe288f238148c1072fbeed151451db05bd5af2f721676b" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"
