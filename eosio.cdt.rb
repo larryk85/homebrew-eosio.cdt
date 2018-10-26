@@ -21,8 +21,8 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.2.3"
-      sha256 "16890693b4c6ab0c9a8aec28025c3830094f00734a3c36e386cfa40a496bfb73" => :high_sierra
+      root_url "https://github.com/larryk85/test/releases/download/1.2.4"
+      sha256 "82cd4b6cd3d9304dc4edeb70b3790bf39f04fcf46b167e8b3e6444e19f0589c4" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"
