@@ -2,8 +2,8 @@ class EosioCdt < Formula
 
    homepage "https://github.com/eosio/eosio.cdt"
    revision 0
-   url "https://github.com/eosio/eosio.cdt/archive/v1.3.2.tar.gz"
-   version "1.3.2"
+   url "https://github.com/eosio/eosio.cdt/archive/v1.4.1.tar.gz"
+   version "1.4.1"
    
    option :universal
 
@@ -21,8 +21,8 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.2.4"
-      sha256 "82cd4b6cd3d9304dc4edeb70b3790bf39f04fcf46b167e8b3e6444e19f0589c4" => :high_sierra
+      root_url "https://github.com/larryk85/test/releases/download/1.2.5"
+      sha256 "2f2f4276f0cf31187d4492ee8cd174bd5ef69d180911e44c58fa995545fdce5b" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"
