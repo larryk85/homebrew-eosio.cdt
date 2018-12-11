@@ -23,6 +23,7 @@ class EosioCdt < Formula
    bottle do
       root_url "https://github.com/larryk85/test/releases/download/1.2.6"
       sha256 "ead281bec9233a697528a4b526b55fd2a2239361cb6a4afc129bc35acd434736" => :high_sierra
+      sha256 "2a9db35ff00e0246e75b925b06c82d35d7dd6dfd1eba745ae83ffd62ccd55084" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
