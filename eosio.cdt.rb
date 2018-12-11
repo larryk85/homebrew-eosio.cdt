@@ -2,7 +2,7 @@ class EosioCdt < Formula
 
    homepage "https://github.com/eosio/eosio.cdt"
    revision 0
-   url "https://github.com/eosio/eosio.cdt/archive/v1.5.0.tar.gz"
+   url "https://github.com/eosio/eosio.cdt/archive/v1.4.1.tar.gz"
    version "1.5.0"
    
    option :universal
