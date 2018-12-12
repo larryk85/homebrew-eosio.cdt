@@ -21,8 +21,8 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.2.7"
-      sha256 "88268bda40f1a5fa8bd5fc2775cc911915ea9301df311bd59c82afe19cdd83e2" => :high_sierra
+      root_url "https://github.com/larryk85/test/releases/download/1.2.8"
+      sha256 "ce34b7003902b5aaac9ebc28a6755417241b1bf2936913cf79b1b278377f670c" => :high_sierra
       sha256 "2a9db35ff00e0246e75b925b06c82d35d7dd6dfd1eba745ae83ffd62ccd55084" => :mojave
    end
    def install
