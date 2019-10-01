@@ -21,8 +21,8 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/1.8.0"
-      sha256 "c5e8159892745fa81b75abcc86e630be98bf42ea5d38adc7f8b8e6f4530c01e2" => :mojave
+      root_url "https://github.com/larryk85/test/releases/download/1.9.0"
+      sha256 "6de894f6702d2f97847ca5e65d1943b46016a895c9ae4ff9e1ce605c2639f6c5" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
