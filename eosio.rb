@@ -22,4 +22,3 @@ class Eosio < Formula
       raise "Error, only supporting binary packages at this time"
    end
 end
-_
