@@ -21,7 +21,7 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/larryk85/test/releases/download/v2.0.1/eosio.cdt-1.7.0-rc1.mojave.bottle.tar.gz"
+      root_url "https://github.com/larryk85/test/releases/download/v2.0.1"
       sha256 "2bdce08f423cb7f122369aa018128080c3202d0f668bac40d6bde0bfee40e47a" => :mojave
    end
    def install
